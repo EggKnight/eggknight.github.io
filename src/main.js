@@ -1,4 +1,4 @@
-const textureSource = require("img/texture.json");
+//const textureSource = require("img/texture.json");
 
 //Creates new PIXI application
 const app = new PIXI.Application();
