@@ -1,2 +1,2 @@
-# fuckingeggknight.github.io
-Fucking Egg Knight
+# eggknight.github.io
+Egg Knight
