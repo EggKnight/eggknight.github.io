@@ -1,0 +1,4 @@
+Concept:
+-Eggs:
+  -Launch egg: launches enemies in the direction that the egg is thrown (based on player accuracy), fast, but easy to recover from
+  -Stun egg: stuns enemies (but moves slower, therefore easier to dodge)
