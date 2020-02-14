@@ -21,7 +21,7 @@ function loadTextures() {
 }
 
 // (Ethan): testing, not important.
-let sprite = new PIXI.Sprite(PIXI.loader.resources["sprite/bean.jpg"].texture);
+let sprite = new PIXI.Sprite(PIXI.loader.resources["sprites/bean.jpg"].texture);
 app.stage.addChild(sprite);
 
 
