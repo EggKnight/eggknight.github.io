@@ -16,12 +16,13 @@ try {
   var sprites = {};
 
   //Loads sprites
-  var loadTextures = function(){
+  function() loadTextures {
     for(var t in PIXI.loader.resources){
       let name = t.replace(".jpg", "").replace(".png", "");
-      sprites.name = t.texture;
+      sprites.name = new PIXI.sprite(t.texture);
     }
   }
+  
 } catch( e ){
   //Add error as a paragraph to the screen
   let p = document.createElement("p");
