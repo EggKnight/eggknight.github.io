@@ -16,7 +16,7 @@ try {
   var sprites = {};
 
   //Loads sprites
-  function() loadTextures {
+  function loadTextures() {
     for(var t in PIXI.loader.resources){
       let name = t.replace(".jpg", "").replace(".png", "");
       sprites.name = new PIXI.sprite(t.texture);
