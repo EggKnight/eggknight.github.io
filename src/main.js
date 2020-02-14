@@ -1,4 +1,4 @@
-//Putting this all in a big try-catch function because my school disables chrome dev tools
+// Putting this all in a big try-catch function because my school disables chrome dev tools
 // (my school also does this) - ethan
 try {
   //Creates new PIXI application
@@ -9,7 +9,7 @@ try {
 
   //Load images
   PIXI.loader
-    .add()
+    .add("sprites/test.jpg")
     .load(loadTextures);
 
   //Object where sprites are contained
