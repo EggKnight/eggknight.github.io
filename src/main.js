@@ -23,7 +23,7 @@ try {
   }
   
   // (Ethan): testing, not important.
-  let sprite = new PIXI.Sprite(PIXI.loader.resources["bean"].texture);
+  let sprite = new PIXI.Sprite(PIXI.loader.resources["sprite/bean.jpg"].texture);
   app.stage.addChild(sprite);
   
 } catch( e ){
