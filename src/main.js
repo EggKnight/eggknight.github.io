@@ -9,7 +9,7 @@ try {
 
   //Load images
   PIXI.loader
-    .add("sprites/test.jpg")
+    .add("sprites/bean.jpg")
     .load(loadTextures);
 
   //Object where sprites are contained
