@@ -14,15 +14,15 @@ var sprites = {};
 
 //Loads sprites
 function loadTextures() {
-  for(var t in PIXI.loader.resources){
+  /*for(var t in PIXI.loader.resources){
     let name = t.replace(".jpg", "").replace(".png", "");
     sprites.name = new PIXI.Sprite(t.texture);
-  }
+  }*/
+  
+  // (Ethan): testing, not important.
+  let sprite = new PIXI.Sprite(PIXI.loader.resources["sprites/bean.jpg"].texture);
+  app.stage.addChild(sprite);
 }
-
-// (Ethan): testing, not important.
-let sprite = new PIXI.Sprite(PIXI.loader.resources["sprites/bean.jpg"].texture);
-app.stage.addChild(sprite);
 
 
 
