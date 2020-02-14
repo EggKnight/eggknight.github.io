@@ -8,7 +8,7 @@ try {
   document.body.appendChild(app.view);
 
   //Load images
-  PIXI.loader
+  PIXI.loader()
     .add("sprites/bean.jpg")
     .load(loadTextures);
 
