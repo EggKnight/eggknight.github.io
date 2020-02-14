@@ -1,5 +1,4 @@
 // Putting this all in a big try-catch function because my school disables chrome dev tools
-// (my school also does this) - ethan
 try {
   //Creates new PIXI application
   const app = new PIXI.Application();
@@ -19,9 +18,13 @@ try {
   function loadTextures() {
     for(var t in PIXI.loader.resources){
       let name = t.replace(".jpg", "").replace(".png", "");
-      sprites.name = new PIXI.sprite(t.texture);
+      sprites.name = new PIXI.Sprite(t.texture);
     }
   }
+  
+  // (Ethan): testing, not important.
+  let sprite = new PIXI.Sprite(PIXI.loader.resources["bean"].texture);
+  app.stage.addChild(sprite);
   
 } catch( e ){
   //Add error as a paragraph to the screen
